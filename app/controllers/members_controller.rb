@@ -44,6 +44,7 @@ class MembersController < ApplicationController
     respond_to do |format|
       format.html { head 406 }
       format.api
+      format.json
     end
   end
 
